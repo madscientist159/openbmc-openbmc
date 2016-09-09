@@ -1,5 +1,5 @@
-KBRANCH ?= "obmc-master-firestone-fixes"
+KBRANCH ?= "dev-4.4-firestone-fixes"
 LINUX_VERSION ?= "4.4"
-SRCREV="70289fd5b7d09b93a389fb1812472bcec0494c8d"
+SRCREV="7948db98ed407e153b3b39546d5cb607d80c8947"
 
 require linux-obmc.inc
