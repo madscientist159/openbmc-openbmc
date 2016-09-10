@@ -1,5 +1,5 @@
-KBRANCH ?= "dev-4.7"
+KBRANCH ?= "dev-4.7-firestone-fixes"
 LINUX_VERSION ?= "4.7"
-SRCREV="6d93f625315a1e9b51d017a78f8c0938a097ea85"
+SRCREV="582d3ca5dbc2280847962b1c0c55679a654b208a"
 
 require linux-obmc.inc
