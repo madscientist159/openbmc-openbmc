@@ -1,6 +1,6 @@
 SUMMARY = "Phosphor python library"
 DESCRIPTION = "Phosphor python library."
-HOMEPAGE = "http://github.com/openbmc/pyphosphor"
+HOMEPAGE = "http://github.com/madscientist159/openbmc-pyphosphor"
 PR = "r1"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://${S}/LICENSE;md5=e3fc50a88d0a364313df4b21ef20c29e"
@@ -47,7 +47,7 @@ FILES_${PN}-wsgi-apps-ns = "${PYTHON_SITEPACKAGES_DIR}/obmc/wsgi/apps/__init__.p
 FILES_${PN}-utils = "${PYTHON_SITEPACKAGES_DIR}/obmc/utils"
 FILES_${PN}-dbus = "${PYTHON_SITEPACKAGES_DIR}/obmc/dbuslib"
 
-SRC_URI += "git://github.com/openbmc/pyphosphor"
+SRC_URI += "git://github.com/madscientist159/openbmc-pyphosphor"
 
 SRCREV = "4fed868c4a142f3f6951d1417916f7cf7eff2b29"
 
